@@ -1,0 +1,25 @@
+{
+  "name": "so_report",
+  "version": "1.0.0",
+  "description": "an app that generate strategic report based on given data",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "nahi.terefe@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.2",
+    "multer": "^1.4.4",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7",
+    "read-excel-file": "^5.2.28",
+    "sequelize": "^6.18.0"
+  }
+}
